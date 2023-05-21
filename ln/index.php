@@ -68,7 +68,7 @@
          </div> -->
          <div class="lbl10_c">
             <div class="lbl10_cm">
-               <a class="lbl10_cml" target="_blank" href="#">
+               <a class="lbl10_cml" target="_blank" href="https://wa.me/<?=$site['whatsapp']?>?text=Консультация жазылу">
                   <div class="lbl10_cmle">
                      <div class="lazy_img" data-src="/assets/img/bag/2581.png"></div>
                   </div>
@@ -83,7 +83,7 @@
                      <div class="btn">Жазылу</div>
                   </div>
                </a>
-               <a class="lbl10_cml" target="_blank" href="#">
+               <a class="lbl10_cml" target="_blank" href="https://wa.me/<?=$site['whatsapp']?>?text=Мастер-классқа қатысу">
                   <div class="lbl10_cmle">
                      <div class="lazy_img" data-src="/assets/img/bag/08.png"></div>
                   </div>
@@ -98,7 +98,7 @@
                      <div class="btn">Қатысу</div>
                   </div>
                </a>
-               <a class="lbl10_cml" target="_blank" href="#">
+               <a class="lbl10_cml" target="_blank" href="https://wa.me/<?=$site['whatsapp']?>?text=Курс сатып алғым келеді">
                   <div class="lbl10_cmle">
                      <div class="lazy_img" data-src="/assets/img/bag/kerfin7_nea_2788.png"></div>
                   </div>
