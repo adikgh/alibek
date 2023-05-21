@@ -14,15 +14,11 @@
       <div class="lbl1_t">
          <div class="lbl1_tc">
             <div class="lazy_img" data-src="/assets/img/bag/alibek79.png"></div>
-            <!-- <div class="lbl1_cmc">
-               <div class="lbl1_cmh">Alibek Bauyrzhanuly</div>
-               <div class="lbl1_cmp">Өте тәжірибелі трейдер</div>
-            </div> -->
          </div>
       </div>
       <div class="bl_c">
          <div class="lbl1_tj">
-            <div class="lbl1_tjl"></div>
+            <div class="lbl1_tjl">Alibek</div>
             <div class="lbl1_tjr">
                <? if ($site['instagram']): ?>
                   <a href="https://instagram.com/<?=$site['instagram']?>">
@@ -55,6 +51,12 @@
                <!-- <h1>Трейдинг арқылы тұрақты әрі рисксіз табыс тап</h1> -->
             </div>
          </div>
+         
+      </div>
+      <div class="lbl1_cmc">
+         <!-- <div class="lbl1_cmh">Alibek Bauyrzhanuly</div> -->
+         <div class="lbl1_cmh">Әлібек Бауыржанұлы</div>
+         <div class="lbl1_cmp">2014 жылдан бастап финансовый рынокта торговля жасаймын (криптавалюта, акция, форекс)</div>
       </div>
    </div>
 
