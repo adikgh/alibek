@@ -81,7 +81,7 @@
 	</div>
 <? endif ?>
 
-<? if ($fg && $site_set['pmenu'] == true && $user_right): ?>
+<? if (@$fg && $site_set['pmenu'] && $user_right): ?>
    <div class="pmenu">
       <div class="pmenu_c">
 			<div class="pmenu_cm">
@@ -141,7 +141,7 @@
 	<div class="ub1 <?=($user_right?'ub1_admin':'')?>">
 
 	<!-- Шапка -->
-	<? if ($site_set['utop_bk']): ?>
+	<? if (@$site_set['utop_bk']): ?>
 		<div class="utopc <?=(!$user_right?'uitemc_ud':'') ?>">
 			<a class="utopc_bk" href="/education/<?=$site_set['utop_bk']?>">
 				<div class=""><i class="fal fa-long-arrow-left"></i></div>
@@ -149,7 +149,7 @@
 			</a>
 			<a class="utopc_s" href="/education/my/">Курсы</a>
 			<a class="utopc_s" href="/education/course/?id=<?=$course_id?>"><?=$course_d['name_'.$lang]?></a>
-			<? if ($pod_menu_name == 'users'): ?> <div class="utopc_s">Ученики</div> <? endif ?>
-			<? if ($menu_name == 'lesson'): ?> <div class="utopc_s"><?=$lesson['name_'.$lang]?></div> <? endif ?>
+			<? if (@$pod_menu_name == 'users'): ?> <div class="utopc_s">Ученики</div> <? endif ?>
+			<? if (@$menu_name == 'lesson'): ?> <div class="utopc_s"><?=$lesson['name_'.$lang]?></div> <? endif ?>
 		</div>
 	<? endif ?>

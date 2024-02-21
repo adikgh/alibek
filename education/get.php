@@ -3,9 +3,9 @@
 
 	// login
 	if(isset($_GET['login'])) {
-		$phone = strip_tags($_POST['phone']);
-		$password = strip_tags($_POST['password']);
-		$code = strip_tags($_POST['code']);
+		$phone = @strip_tags($_POST['phone']);
+		$password = @strip_tags($_POST['password']);
+		$code = @strip_tags($_POST['code']);
 		$user = db::query("SELECT * FROM user WHERE phone = '$phone' and phone is not null");
 		if (mysqli_num_rows($user)) {
 			$user_d = mysqli_fetch_assoc($user);

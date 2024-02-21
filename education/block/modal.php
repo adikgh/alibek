@@ -33,11 +33,6 @@
                   <input type="text" class="form_txt user_surname" placeholder="Тегіңізді жазыңыз" data-lenght="2" value="<?=$user['surname']?>" />
 						<i class="fal fa-text form_icon"></i>
                </div>
-					<div class="form_im">
-						<div class="form_span">Жасыңыз:</div>
-						<input type="tel" class="form_im_txt fr_age user_age" placeholder="18" data-lenght="2" value="<?=$user['age']?>" />
-                  <i class="fal fa-calendar-alt form_icon"></i>
-					</div>
 
                <div class="form_im">
 						<div class="form_span">Жеке фотоңыз:</div>
@@ -45,11 +40,11 @@
 						<div class="form_im_img user_img_add <?=($user['img']?'form_im_img2':'')?>" <?=($user['img']?'style="background-image: url(/assets/uploads/users/'.$user['img'].')"':'')?> data-txt="Фотоны жаңарту">Құрылғыдан таңдау</div>
 					</div>
 
-               <div class="form_im">
+               <!-- <div class="form_im">
                   <div class="form_span">Құпия кодыңыз:</div>
                   <input type="tel" class="form_im_txt fr_code user_code" placeholder="0000" data-lenght="4" value="<?=$user['code']?>" />
                   <i class="fal fa-lock-alt form_icon"></i>
-               </div>
+               </div> -->
 
 					<div class="form_im form_im_bn"><div class="btn btn_user_edit"><i class="far fa-check"></i><span>Сақтау</span></div></div>
 				</div>

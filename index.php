@@ -1,15 +1,14 @@
 <? include "config/core.php";
 
-	// if (isset($_GET['c'])) header('location: /education/sign.php?id='.$_GET['c']);
-	// else header('location: /education/');
+	if (isset($_GET['c'])) header('location: /education/sign.php?id='.$_GET['c']);
+	else header('location: /education/');
 
-	header('location: /ln/');
+	// header('location: /ln/');
 	
 
 	$css = ['main'];
 
 
-	
 
 ?>
 <? include "block/header.php"; ?>

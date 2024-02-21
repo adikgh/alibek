@@ -31,7 +31,8 @@
                 $user_ps = $_COOKIE['ups'];
                 // $user_pm = $_COOKIE['upm'];
             }
-            if (($user_ph && $user_ps) || ($user_pm && $user_ps)) {
+            // if (($user_ph && $user_ps) || ($user_pm && $user_ps)) {
+            if ($user_ph && $user_ps) {
                 $user = db::query("SELECT * FROM user WHERE phone = '$user_ph'");
                 if (mysqli_num_rows($user)) {
                     $user_data = mysqli_fetch_assoc($user);
@@ -70,9 +71,9 @@
     // data
     $core = new core;
     $user = core::$user_data;
-    $user_id = $user['id'];
-    $user_right = $user['right'];
-    $user_super_right = $user['super_right'];
+    $user_id = @$user['id'];
+    $user_right = @$user['right'];
+    $user_super_right = @$user['super_right'];
 
 
     // lang
@@ -82,7 +83,7 @@
 
 
     // setting
-    $ver = 1.005;
+    $ver = 1.006;
     $site = mysqli_fetch_array(db::query("select * from `site` where id = 1"));
     $site_set = [
         'header' => true,

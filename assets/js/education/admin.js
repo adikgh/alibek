@@ -360,7 +360,7 @@ $(document).ready(function() {
 		id = $(this).attr('data-id')
 		// if ($(this).attr('data-block-id')) $('.btn_lesson_edit').attr('data-block-id', id)
 		$('.lesson_clc_menu').attr('data-id', id)		
-		$('.lesson_clc_viewm').attr('href', 'lesson.php?id=' + id)
+		$('.lesson_clc_viewm').attr('href', 'lesson/?id=' + id)
 
 		$.ajax({
 			url: "/education/course/get_view.php?view",

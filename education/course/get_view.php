@@ -4,7 +4,7 @@
    <? if (isset($_GET['view'])): ?>
 		<? $id = strip_tags($_POST['id']); ?>
 		<? $lesson_d = fun::lesson($id); ?>
-		<? $course_d = fun::course($lesson_d['cours_id']); ?>
+		<? $course_d = fun::course($lesson_d['course_id']); ?>
 
          <div class="form_c">
             <div class="form_im">
@@ -18,7 +18,7 @@
                <div class="form_im_toggle_btn form_im_toggle_act"></div>
             </div> -->
 
-            <? if ($course_d['view'] == 1): ?>
+            <? if (@$course_d['view'] == 1): ?>
                <div class="form_im">
                   <div class="form_span">Бұл сабақтан не аласың?</div>
                   <textarea type="text" class="form_im_comment_aut v1_txt1" rows="5" autocomplete="off" autocorrect="off" aria-label="Мәтінді жазыңыз .." placeholder="Мәтінді жазыңыз .." >
