@@ -35,7 +35,7 @@ $(document).ready(function() {
 	$('.add_user_send').on('click', function(){
 		var phone = $('.phone')
 		var mail = $('.mail')
-		var course = $(this).attr('data-cours-id')
+		var cours_id = $(this).attr('data-cours-id')
 		var pack = $('.pack').attr('data-val')
 
 		if (phone.attr('data-sel') == 1) {
@@ -45,8 +45,8 @@ $(document).ready(function() {
 				dataType: "html",
 				data: ({
 					phone: phone.attr('data-val'),
-					course: course,
-					pack: pack,
+					cours_id: cours_id,
+					// pack: pack,
 				}),
 				beforeSend: function(){ },
 				error: function(data){ console.log(data) },

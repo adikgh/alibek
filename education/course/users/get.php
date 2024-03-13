@@ -6,15 +6,14 @@
 
 	// add user
 	if(isset($_GET['add_user'])) {
-		$phone = strip_tags($_POST['phone']);
-
-		$cours_id = strip_tags($_POST['cours_id']);
+		$phone = @strip_tags($_POST['phone']);
+		$cours_id = @strip_tags($_POST['cours_id']);
 		// $pack_id = strip_tags($_POST['pack_id']);
 		
 		$cours = fun::course($cours_id);
-		$cours_name = $cours['name_'.$lang];
+		$cours_name = $cours['name_kz'];
 		// $pack = fun::pack($pack_id);
-		$days = $cours['access']; if ($pack['access']) $days = $pack['access'];
+		$days = $cours['access']; // if ($pack['access']) $days = $pack['access'];
 		$end_dt = date('Y-m-d H:i:s', strtotime("$datetime +$days day"));
 
 		$mess = "Cізге $cours_name курсына доступ ашылды. Сілтеме: https://alibektr.kz/?c=$cours_id";
