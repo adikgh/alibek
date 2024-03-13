@@ -8,7 +8,7 @@
          </div>
       </div>
       <div class="lsb_i3">
-         <a class="btn btn_cl" href="<?=$sql['txt']?>" target="_blank"><span>Ашу</span><i class="fal fa-long-arrow-right"></i></a>
+         <a class="btn" href="<?=$sql['txt']?>" target="_blank"><span>Ашу</span><i class="fal fa-long-arrow-right"></i></a>
       </div>
    </div>
 </div>

@@ -8,11 +8,11 @@
          </div>
       </div>
       <div class="lsb_i3">
-         <a class="btn btn_cl" href="/assets/uploads/lesson/<?=$sql['txt']?>" target="_blank">
+         <a class="btn" href="/assets/uploads/lesson/<?=$sql['txt']?>" target="_blank">
             <i class="fal fa-folder-open"></i>
             <span>Открыть</span>
          </a>
-         <a class="btn btn_cl" href="/assets/uploads/lesson/<?=$sql['txt']?>" download>
+         <a class="btn" href="/assets/uploads/lesson/<?=$sql['txt']?>" download>
             <i class="fal fa-cloud-download"></i>
             <span>Скачать</span>
          </a>

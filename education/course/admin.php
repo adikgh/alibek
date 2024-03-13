@@ -170,7 +170,7 @@
 					<div class="coursls_i_rg">
 						<div class="btn btn_k add_lesson_b">
 							<i class="far fa-layer-plus"></i>
-							<span>Добавить первый урок</span>
+							<span>Алғашқы сабақты салу</span>
 						</div>
 					</div>
 

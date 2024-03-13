@@ -94,7 +94,7 @@
 									<div class="uc_ui_right">
 										<div class="form_im form_im_toggle">
 											<input type="checkbox" class="homework" data-val="" />
-											<div class="form_im_toggle_btn <?=($user_d['locked']?'':'form_im_toggle_act')?>"></div>
+											<div class="form_im_toggle_btn <?=(@$user_d['locked']?'':'form_im_toggle_act')?>"></div>
 										</div>
 									</div>
 
