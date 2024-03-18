@@ -38,18 +38,14 @@
 						<input type="tel" class="form_txt fr_phone phone phone_inp" placeholder="8 (000) 000-00-00" data-lenght="11" data-sel="0" />
 						<i class="fal fa-user form_icon"></i>
 					</div>
-					<div class="form_im form_im_ps dsp_n">
-						<input type="password" class="form_txt password" placeholder="<?=t::w('password', $lang)?>" data-lenght="6" data-sel="0" />
+					<div class="form_im form_im_ps">
+						<input type="password" class="form_txt password" placeholder="<?=t::w('password', $lang)?>" data-lenght="4" data-sel="0" />
 						<i class="fal fa-lock-alt form_icon"></i>
 						<i class="fal fa-eye-slash form_icon_pass"></i>
 					</div>
-					<div class="form_im form_im_cd dsp_n">
-						<i class="fal fa-lock-alt form_icon"></i>
-						<input type="tel" class="form_txt fr_code code" placeholder="0000" data-lenght="4" data-sel="0" />
-					</div>
 					<div class="form_im">
 						<button class="btn btn_sign_in" data-tt="<?=t::w('Login', $lang)?>"> 
-							<span><?=t::w('Check the number', $lang)?></span>
+							<span><?=t::w('Login', $lang)?></span>
 						</button>
 					</div>
 				</div>
