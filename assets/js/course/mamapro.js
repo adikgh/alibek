@@ -177,14 +177,14 @@ $(document).ready(function() {
                phone:phone.val()
                // phone:phone.attr('data-val')
             }),
-            beforeSend: function(){ mess('Отправка..') },
-				error: function(data){ mess('Ошибка..') },
+            beforeSend: function(){ mess('Жіберілуде..') },
+				error: function(data){ mess('Қате..') },
 				success: function(data){
 					if (data == 'yes') { 
-						mess('Успешно отправлено')
+						mess('Сәтті жіберілді')
 						phone.val('')
 						phone.attr('data-sel', 0)
-					} else mess('Пожалуйста, перезагрузите сайт <br> и попробуйте еще раз')
+					} else mess('Сайтты қайта жүктеп, <br> әрекетті қайталаңыз')
 					console.log(data);
 				},
 			})

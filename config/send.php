@@ -3,7 +3,7 @@
 	// https://api.telegram.org/bot7168899932:AAEAN-qes0nqrip7T5Wb-SdtHyO2N-oQ-7Q/getUpdates
 
 	$token 		= "7168899932:AAEAN-qes0nqrip7T5Wb-SdtHyO2N-oQ-7Q";
-	$chat_id 	= "-4182901506";
+	$chat_id 	= "-1002115099030";
 	
 	if(isset($_GET['mess'])) {
 		// $name  = strip_tags($_POST['name']);
