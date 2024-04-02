@@ -184,6 +184,11 @@ $(document).ready(function() {
 						mess('Сәтті жіберілді')
 						phone.val('')
 						phone.attr('data-sel', 0)
+
+                  setTimeout(function() { 
+                     $(location).attr('href', "https://t.me/+2NBCF9-abdM5NGEy");
+                  }, 1000);
+
 					} else mess('Сайтты қайта жүктеп, <br> әрекетті қайталаңыз')
 					console.log(data);
 				},
