@@ -30,7 +30,7 @@
                         <span>формат</span>
                      </div>
                      <div class="blo1_tsi">
-                        <p>27.03.2024</p>
+                        <p>06.04.2024</p>
                         <span>өтетін күні</span>
                      </div>
                      <div class="blo1_tsi">
