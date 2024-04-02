@@ -1,17 +1,20 @@
-<?
+<? include "core.php";
 
-	$token 		= "1921836439:AAEdLQlmhwkwbuznS5E0xmAbfEzOhPJEANg";
-	$chat_id 	= "-569554715";
+	// https://api.telegram.org/bot7168899932:AAEAN-qes0nqrip7T5Wb-SdtHyO2N-oQ-7Q/getUpdates
+
+	$token 		= "7168899932:AAEAN-qes0nqrip7T5Wb-SdtHyO2N-oQ-7Q";
+	$chat_id 	= "-4182901506";
 	
 	if(isset($_GET['mess'])) {
-		$name  = strip_tags($_POST['name']);
-		$phone = strip_tags($_POST['phone']);
-		$phone = substr_replace($phone, '', 0, 1);
-		$phone = substr_replace($phone, '8', 0, 1);
+		// $name  = strip_tags($_POST['name']);
+		$phone = @strip_tags($_POST['phone']);
+		// $phone = substr_replace($phone, '', 0, 1);
+		// $phone = substr_replace($phone, '8', 0, 1);
+		$txt = '';
 
 		$arr = array(
-			'Типі: '			=> 'Курсқа жазыламын',
-			'Аты-жөні: '	=> $name,
+			'Типі: '		=> 'Мастер класқа жазыламын',
+			// 'Аты-жөні: '	=> $name,
 			'Телефон: ' 	=> $phone
 		);
 

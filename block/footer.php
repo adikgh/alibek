@@ -6,6 +6,7 @@
 		<footer class="footer">
 			<div class="bl_c">
 
+			<? if ($site_set['footer_c']): ?>
 				<div class="footer_t">
 					<div class="footer_tt">
 						<div class="footer_ttl">
@@ -16,7 +17,7 @@
 							<br>
 							<div class="footer_tbl">
 								<a class="btn btn_dd2" href="https://instagram.com/<?=$site['instagram']?>" target="_blank"><i class="fab fa-instagram"></i></a>
-								<a class="btn btn_dd2" href="https://facebook.com/<?=$site['facebook']?>" target="_blank"><i class="fab fa-facebook"></i></a>
+								<a class="btn btn_dd2" href="https://facebook.com/<?//=$site['facebook']?>" target="_blank"><i class="fab fa-facebook"></i></a>
 								<a class="btn btn_dd2" href="https://youtube.com/<?=$site['youtube']?>" target="_blank"><i class="fab fa-youtube"></i></a>
 							</div>
 						</div>
@@ -51,6 +52,7 @@
 						</div>
 					</div>
 				</div>
+			<? endif ?>
 
 				<div class="footer_b">
 					<div class="footer_bl">© <?=$site['name']?>, 2022</div>

@@ -1,11 +1,12 @@
 <? include "../config/core.php";
 
    
-	$site_name = 'autotrading';
+	$menu_name = 'autotrading';
    $site_set['header'] = false;
    $site_set['swiper'] = true;
    $site_set['plyr'] = true;
    $site_set['footer'] = false;
+   $site_set['autosize'] = false;
    $css = ['autotrading'];
    $js = ['aas'];
 
