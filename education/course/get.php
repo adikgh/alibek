@@ -128,7 +128,7 @@
 	}
 
 	// 
-	if(isset($_GET['course_del'])) {
+	if(isset($_GET['cours_del'])) {
 		$id = strip_tags($_POST['id']);
 		$del = db::query("DELETE FROM `course` WHERE `id` = '$id'");
 		

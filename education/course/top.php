@@ -11,7 +11,7 @@
                   <div class="menu_cih">Өзгерту</div>
                </div>
             <? endif ?>
-            <div class="menu_ci cours_arh" data-id="<?=$cours_id?>">
+            <div class="menu_ci cours_arh" data-id="<?=$course_id?>">
                <? if (!@$cours_d['arh']): ?>
                   <div class="menu_cin"><i class="fal fa-archive"></i></div>
                   <div class="menu_cih">Архивке салу</div>
@@ -20,7 +20,7 @@
                   <div class="menu_cih">Архивтен шығару</div>
                <? endif ?>
             </div>
-            <div class="menu_ci cours_del" data-id="<?=$cours_id?>">
+            <div class="menu_ci cours_del" data-id="<?=$course_id?>">
                <div class="menu_cin"><i class="fal fa-trash"></i></div>
                <div class="menu_cih">Өшіру</div>
             </div>
